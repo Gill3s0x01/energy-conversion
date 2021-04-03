@@ -1,0 +1,178 @@
+body {
+  background: linear-gradient(
+    150deg,
+    rgb(102, 166, 250) 17%,
+    rgb(78, 176, 242) 40%,
+    rgb(51, 139, 222) 64%,
+    rgb(3, 170, 221) 85%
+  );
+
+  background-size: 400% 400%;
+  font-family: "Poppins";
+  display: grid;
+  align-items: center;
+  height: 90vh;
+  animation: trocarCor 10s ease-in-out infinite;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  margin-top: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+select {
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  font-family: "Poppins";
+  font-size: 14px !important;
+}
+
+.selectEnergy {
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.selectEnergy #energyInt {
+  margin-right: 20px;
+}
+
+.selectEnergy #energyInt,
+.selectEnergy #energyFort {
+  width: 140px;
+  height: 30px;
+  border: none;
+  outline: 0;
+  height: 40px;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+img {
+  width: 600px;
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+  margin-top: 40px;
+}
+
+p {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#imersao-dev {
+  color: #000;
+}
+
+#dev {
+  background: #eeff00;
+  padding: 0 5px;
+}
+
+.convert {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-family: "Poppins";
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  background: #eeff00;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.convert:hover {
+  background: #000;
+  color: #fff;
+  padding: 15px 25px;
+}
+
+#convert {
+  height: 40px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+  font-size: 21px;
+  padding-left: 10px;
+}
+
+.value {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.coins {
+  width: 50px;
+}
+
+#ifen {
+  animation: piscando 1s infinite;
+}
+
+.result {
+  padding-top: 25px;
+}
+
+#value {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 1.125rem;
+  background: #058c42;
+  border-radius: 5px;
+  padding: 10px 30px 10px 20px;
+  -webkit-box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.75);
+  margin-left: 40px;
+  display: block;
+  margin: 0 auto;
+  width: 8rem;
+  height: 1.8rem;
+}
+
+@keyframes piscando {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes trocarCor {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

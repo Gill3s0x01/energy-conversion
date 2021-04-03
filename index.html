@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Conversor de Energia</title>
+  </head>
+  <body>
+    <div  >
+      <h1>Conversor de Energia</h1>
+      <p class="container">Converta Watts em Amperes rapidamente com o conversor da 
+        <a href="https://www.alura.com.br/" target="_blank"><span id="imersao-dev">imersão <span id="dev">dev<span id="ifen">_</span></a></span></span></p>
+
+      <div class="value">
+        <div class="selectEnergy">
+          <select name="energyInt" id="energyInt">
+            <option value="in">Converter de</option>
+            <option value="W">Watts</option>
+            <option value="A">Amperes</option>
+          </select>
+      
+          <select name="energyFort" id="energyFort">
+            <option value="for">para</option>
+            <option value="W">Watts</option>
+            <option value="A">Amperes</option>
+          </select>
+
+          <select
+          class="selectEnergy"
+          id="valueVoltage"
+          name="valueVoltage"
+          for="valueVoltage"
+          >
+            <option value="127">127V</option>
+            <option value="220">220V</option>
+            <option value="380">380V</option>
+          </select>
+        </div>
+          <label for="convert">
+            <input type="number" id="convert">
+          </label>
+      </div>
+      <div class="result" id="result">
+        <div id="value">VALOR: 
+          <span class="energySimbol"></span>
+          <span id="simbol"></span>
+        </div>
+      </div>
+        
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
