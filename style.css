@@ -55,7 +55,7 @@ select {
 
 .selectEnergy #energyInt,
 .selectEnergy #energyFort {
-  width: 140px;
+  width: 200px;
   height: 30px;
   border: none;
   outline: 0;
@@ -145,14 +145,14 @@ p {
   font-size: 1.125rem;
   background: #058c42;
   border-radius: 5px;
-  padding: 10px 30px 10px 20px;
+  padding: 10px 100px 10px 20px;
   -webkit-box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.75);
   margin-left: 40px;
   display: block;
   margin: 0 auto;
-  width: 8rem;
+  width: 18rem;
   height: 1.8rem;
 }
 
