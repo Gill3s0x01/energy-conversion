@@ -119,6 +119,14 @@ p {
   font-size: 21px;
   padding-left: 10px;
 }
+.a-convert {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 350px;
+  font-size: larger;
+}
 
 .value {
   display: flex;
